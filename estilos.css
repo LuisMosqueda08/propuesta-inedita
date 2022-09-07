@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+ background-image: url(flor.jpg);  
+ background-position: center;
+ 
+
+ width: 100vw;
+ height: 100vh;
+ text-align: center;
+
+}
+
+p{
+    font-size: 40px;
+    padding: 15%;
+    color: black;
+    
+}
+
+button{
+    font-size: 30px;
+    padding: 15px 30px;
+    display: inline-block;
+    background: none;
+    border-style: dashed;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#yesBtn{
+    transform: translate(-45%,0);
+    
+}
+
+#noBtn{
+    position: absolute;
+    
+}
+
